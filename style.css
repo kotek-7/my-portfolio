@@ -1,62 +1,17 @@
 body {
-  background-color: #00ffff;
-  color: #000; /* 黒いテキスト */
-  font-family: "ＭＳ ゴシック", sans-serif; /* レトロなフォント */
-}
-
-.title {
-  background: linear-gradient(
-    to right,
-    #ff0000,
-    #ff7f00,
-    #ffff00,
-    #00ff00,
-    #0000ff,
-    #4b0082,
-    #8b00ff
-  ); /* 虹色のグラデーション */
-  background-clip: text; /* テキストに背景を適用 */
-  -webkit-text-fill-color: transparent; /* テキストの塗りを透明に */
-  text-shadow: none; /* 影を削除 */
-  font-size: 400%;
-  font-weight: bold;
-  font-style: italic;
-  display: inline-block;
+  background-color: #f0f0f0; /* 背景色 */
+  font-family: "Noto Sans JP", sans-serif; /* フォント */
+  padding: 20px; /* 余白 */
+  color: #222; /* テキスト色 */
 }
 
 .hometown-pic {
   width: auto; /* 画像の幅 (autoにすることで画像の縦横比にあわせる) */
   height: 200px; /* 画像の高さ */
-  border: 5px solid #ff00ff; /* 太いピンクの枠線 */
-  border-radius: 10px; /* 角を丸く */
-  box-shadow: 5px 5px 10px #000; /* 影を追加 */
+  border-radius: 10%; /* 丸くする */
 }
 
 .headline {
-  font-size: 1.5rem; /* 少し大きく */
-  font-weight: bold;
-  color: #0000ff; /* 青色テキスト */
-  text-decoration: underline; /* 下線を追加 */
-  display: inline-block; /* 背景を削除してもレイアウトを維持 */
-  padding: 0; /* パディングを削除 */
-  margin: 0;
-  border-radius: 0; /* 角丸を削除 */
-  background-color: none; /* 背景を削除 */
-}
-
-.profile {
-  margin-top: 20px; /* 上部に余白を追加 */
-}
-
-p, li {
-  color: #000; /* 濃い黒色の文字 */
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* 白い文字の影を追加 */
-  padding: 0; /* パディングを削除 */
-  margin: 0; /* マージンを削除 */
-  border-radius: 0; /* 角丸を削除 */
-  line-height: 1.6; /* 行間を広げて読みやすく */
-}
-
-ul {
-  margin: 0; /* マージンを削除 */
+  font-size: 1.2rem; /* フォントサイズ */
+  font-weight: bold; /* 太字 */
 }
