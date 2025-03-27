@@ -1,11 +1,17 @@
 body {
-    background-color: #f0f0f0;   /* 背景色 */
-    font-family: sans-serif;       /* フォント */
-    padding: 20px;                 /* 余白 */
+  background-color: #f0f0f0; /* 背景色 */
+  font-family: "Noto Sans JP", sans-serif; /* フォント */
+  padding: 20px; /* 余白 */
+  color: #222; /* テキスト色 */
 }
 
 .hometown-pic {
-    width: auto;                   /* 画像の幅 (autoにすることで画像の縦横比にあわせる) */
-    height: 200px;                 /* 画像の高さ */
-    border-radius: 10%;            /* 丸くする */
+  width: auto; /* 画像の幅 (autoにすることで画像の縦横比にあわせる) */
+  height: 200px; /* 画像の高さ */
+  border-radius: 10%; /* 丸くする */
+}
+
+.headline {
+  font-size: 1.2rem; /* フォントサイズ */
+  font-weight: bold; /* 太字 */
 }
